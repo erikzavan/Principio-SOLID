@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-let entries = []; // Simula banco de dados em memória
+let entries = []; 
 
 app.post('/api/entries', (req, res) => {
   const entry = req.body;
