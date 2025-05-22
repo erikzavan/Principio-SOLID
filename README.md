@@ -34,8 +34,11 @@ class EntryValidator {
 - `EntryValidator` apenas valida entradas;
 Lógica do código:
 .Classe com método estático validate;
+
 .Verifica se o objeto entry tem name e message;
+
 .Se faltar algum, lança erro;
+
 .Se a mensagem for maior que 300 caracteres, lança erro;
 
 ```javascript
@@ -59,8 +62,11 @@ class Guestbook {
 
 Como o código esta com as responsabilidades espalbhadas, foi evitado módulos difíceis de manter por conta de aglomeração.
 Lógica do código:
+
 .constructor(storage) recebe objeto responsável por armazenar dados;
+
 .addEntry(entry) valida, adiciona timestamp e salva;
+
 .listEntries() retorna todas as entradas.
 
 ---
@@ -80,7 +86,9 @@ class GuestbookStorage {
 ```
 - `Guestbook`(Código em SRP) depende da abstração do `GuestbookStorage` e não de uma implementação concreta. Isso é bom pois seria possível trocar o Storage por outro, evitando relação direta com a implementação.
 Lógica do código:
+
 .Classe base com dois métodos, saveEntry e getEntries;
+
 .Ambos lançam erro padrão, serve como interface para implementações depois.
 
 ISP:
@@ -97,6 +105,9 @@ const TimeStampedEntry = (entry) => ({
 ```
 - A classe `TimeStampedEntry` é algo que implementa uma funcionalidade sem precisar herdar nada. Isso permite adicionar outros tipos de comportamento sem dificuldades, o que não seria o caso com heranças rígidas.
 Lógica do código:
+
 .Função que recebe um objeto entry;
+
 .Retorna uma cópia do objeto com uma nova propriedade timestamp;
+
 .Usa spread (...entry) para copiar os dados originais.
