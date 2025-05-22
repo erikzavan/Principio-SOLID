@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "name": "principio-solid",
+  "version": "1.0.0",
+  "description": "# 1. Escolham 4 dos 7 princípios abaixo",
+  "main": "guestbook.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikzavan/Principio-SOLID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikzavan/Principio-SOLID/issues"
+  },
+  "homepage": "https://github.com/erikzavan/Principio-SOLID#readme"
+}

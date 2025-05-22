@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Guestbook</title>
+  <style>
+    body { font-family: Arial; padding: 2rem; max-width: 600px; margin: auto; }
+    input, textarea { width: 100%; margin-bottom: 1rem; padding: 0.5rem; }
+    button { padding: 0.5rem 1rem; }
+    .entry { border-bottom: 1px solid #adff8d; margin-bottom: 1rem; padding-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Livro de Visitas</h1>
+  <form id="guestbook-form">
+    <input type="text" id="name" placeholder="Seu nome" required />
+    <textarea id="message" placeholder="Deixe sua mensagem" required></textarea>
+    <button type="submit">Postar</button>
+  </form>
+  <div id="entries"></div>
+
+  <script type="module" src="guestbook.js"></script>
+</body>
+</html>
