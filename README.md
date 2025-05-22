@@ -71,6 +71,8 @@ class GuestbookStorage {
 ```
 - `Guestbook`(Código em SRP) depende da abstração do `GuestbookStorage` e não de uma implementação concreta. Isso é bom pois seria possível trocar o Storage por outro, evitando relação direta com a implementação.
 
+---
+
 ISP:
 
 - `GuestbookStorage`(Código em DIP) define apenas o que `Guestbook` vai usar, evitando, por exemplo, implementar uma função de apagar a entry, que `Guestbook` não usa. Assim o código fica limpo de métodos inúteis que não estão implementados ainda.
