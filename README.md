@@ -63,11 +63,11 @@ class Guestbook {
 Como o código esta com as responsabilidades espalbhadas, foi evitado módulos difíceis de manter por conta de aglomeração.
 Lógica do código:
 
-.constructor(storage) recebe objeto responsável por armazenar dados;
+.`constructor(storage)` recebe objeto responsável por armazenar dados;
 
-.addEntry(entry) valida, adiciona timestamp e salva;
+.`addEntry(entry)` valida, adiciona timestamp e salva;
 
-.listEntries() retorna todas as entradas.
+.`listEntries()` retorna todas as entradas.
 
 ---
 
@@ -87,7 +87,7 @@ class GuestbookStorage {
 - `Guestbook`(Código em SRP) depende da abstração do `GuestbookStorage` e não de uma implementação concreta. Isso é bom pois seria possível trocar o Storage por outro, evitando relação direta com a implementação.
 Lógica do código:
 
-.Classe base com dois métodos, saveEntry e getEntries;
+.Classe base com dois métodos, `saveEntry` e `getEntries`;
 
 .Ambos lançam erro padrão, serve como interface para implementações depois.
 
