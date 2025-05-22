@@ -17,8 +17,6 @@ ISP: Uma classe nao pode depender de um método que ela nao usa. Isso deixa o c�
 
 Composição a herança: Evita um rabbit hole de heranças e ao invés disso compõe objetos com funcionalidades. Isso deixa o código mais flexível.
 
----
-
 ## - Exemplo que ilustre a sua importância. Explique o código detalhadamente e onde o princípio esta sendo usado e qual pooblema ele tem resolvido.
 (FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)
 SRP: 
