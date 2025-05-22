@@ -4,6 +4,8 @@
 # 1. Escolham 4 dos 7 princípios abaixo
 Os princípios escolhidos foram: SRP, DIP, ISP Composição a Herança.
 
+---
+
 # 2. Utilize o Readme do projeto para linkar os códigos e documentar a explicação do exemplo.
 
 ## - O que é? Para que serve?
@@ -14,6 +16,8 @@ DIP: Módulos de alto nível não podem depender de módulos de baixo nível, os
 ISP: Uma classe nao pode depender de um método que ela nao usa. Isso deixa o código limpo de coisas desnecessárias.
 
 Composição a herança: Evita um rabbit hole de heranças e ao invés disso compõe objetos com funcionalidades. Isso deixa o código mais flexível.
+
+---
 
 ## - Exemplo que ilustre a sua importância. Explique o código detalhadamente e onde o princípio esta sendo usado e qual pooblema ele tem resolvido.
 (FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)(FALTA EXPLICAR O CÓDIGO)
